@@ -1,0 +1,104 @@
+/Users/lujianhui/Desktop/aimooc/bin/Debug/netcoreapp2.2/aimooc.deps.json
+/Users/lujianhui/Desktop/aimooc/bin/Debug/netcoreapp2.2/aimooc.runtimeconfig.json
+/Users/lujianhui/Desktop/aimooc/bin/Debug/netcoreapp2.2/aimooc.runtimeconfig.dev.json
+/Users/lujianhui/Desktop/aimooc/bin/Debug/netcoreapp2.2/aimooc.dll
+/Users/lujianhui/Desktop/aimooc/bin/Debug/netcoreapp2.2/aimooc.pdb
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.csprojAssemblyReference.cache
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.csproj.CoreCompileInputs.cache
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorAssemblyInfo.cache
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorAssemblyInfo.cs
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.AssemblyInfoInputs.cache
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.AssemblyInfo.cs
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorTargetAssemblyInfo.cache
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.dll
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.pdb
+/Users/lujianhui/Desktop/aimooc/bin/Debug/netcoreapp2.2/aimooc.Views.dll
+/Users/lujianhui/Desktop/aimooc/bin/Debug/netcoreapp2.2/aimooc.Views.pdb
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.TagHelpers.input.cache
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.TagHelpers.output.cache
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorCoreGenerate.cache
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorTargetAssemblyInfo.cs
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.Views.pdb
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/aimooc.csproj.CopyComplete
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/lujianhui/Desktop/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/bin/Debug/netcoreapp2.2/aimooc.deps.json
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/bin/Debug/netcoreapp2.2/aimooc.runtimeconfig.json
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/bin/Debug/netcoreapp2.2/aimooc.runtimeconfig.dev.json
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/bin/Debug/netcoreapp2.2/aimooc.dll
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/bin/Debug/netcoreapp2.2/aimooc.pdb
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/bin/Debug/netcoreapp2.2/aimooc.Views.dll
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/bin/Debug/netcoreapp2.2/aimooc.Views.pdb
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.csprojAssemblyReference.cache
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.csproj.CoreCompileInputs.cache
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorAssemblyInfo.cache
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorAssemblyInfo.cs
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.AssemblyInfoInputs.cache
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.AssemblyInfo.cs
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.TagHelpers.input.cache
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.TagHelpers.output.cache
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorCoreGenerate.cache
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorTargetAssemblyInfo.cache
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorTargetAssemblyInfo.cs
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.Views.pdb
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.dll
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.pdb
+/Users/lujianhui/Desktop/File/Proj/aimooc/code/aimooc/obj/Debug/netcoreapp2.2/aimooc.csproj.CopyComplete
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/bin/Debug/netcoreapp2.2/aimooc.deps.json
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/bin/Debug/netcoreapp2.2/aimooc.runtimeconfig.json
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/bin/Debug/netcoreapp2.2/aimooc.runtimeconfig.dev.json
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/bin/Debug/netcoreapp2.2/aimooc.dll
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/bin/Debug/netcoreapp2.2/aimooc.pdb
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/bin/Debug/netcoreapp2.2/aimooc.Views.dll
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/bin/Debug/netcoreapp2.2/aimooc.Views.pdb
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.csprojAssemblyReference.cache
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.csproj.CoreCompileInputs.cache
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorAssemblyInfo.cache
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorAssemblyInfo.cs
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.AssemblyInfoInputs.cache
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.AssemblyInfo.cs
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.TagHelpers.input.cache
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.TagHelpers.output.cache
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorCoreGenerate.cache
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorTargetAssemblyInfo.cache
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.RazorTargetAssemblyInfo.cs
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.Views.pdb
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.dll
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.pdb
+/Users/lujianhui/Desktop/File/Proj/AIMooc/aimooc/obj/Debug/netcoreapp2.2/aimooc.csproj.CopyComplete
+G:\aimooc 2\aimooc\bin\Debug\netcoreapp2.2\aimooc.deps.json
+G:\aimooc 2\aimooc\bin\Debug\netcoreapp2.2\aimooc.runtimeconfig.json
+G:\aimooc 2\aimooc\bin\Debug\netcoreapp2.2\aimooc.runtimeconfig.dev.json
+G:\aimooc 2\aimooc\bin\Debug\netcoreapp2.2\aimooc.dll
+G:\aimooc 2\aimooc\bin\Debug\netcoreapp2.2\aimooc.pdb
+G:\aimooc 2\aimooc\bin\Debug\netcoreapp2.2\aimooc.Views.dll
+G:\aimooc 2\aimooc\bin\Debug\netcoreapp2.2\aimooc.Views.pdb
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.csprojAssemblyReference.cache
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.csproj.CoreCompileInputs.cache
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.RazorAssemblyInfo.cache
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.RazorAssemblyInfo.cs
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.AssemblyInfoInputs.cache
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.AssemblyInfo.cs
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.TagHelpers.input.cache
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.TagHelpers.output.cache
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.RazorCoreGenerate.cache
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.RazorTargetAssemblyInfo.cache
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.RazorTargetAssemblyInfo.cs
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.Views.pdb
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.dll
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.pdb
+G:\aimooc 2\aimooc\obj\Debug\netcoreapp2.2\aimooc.csproj.CopyComplete
