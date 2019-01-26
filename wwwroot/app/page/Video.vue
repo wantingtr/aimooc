@@ -12,7 +12,6 @@
 import Vue from 'vue'
 import banner from './components/thirdPage/banner.vue'
 import mainContent from './components/thirdPage/mainContent.vue'
-import relation from './components/thirdPage/relation.vue'
 import moocFooter from "./moocFooter.vue"
 export default Vue.extend({
     name: 'Video',
@@ -23,24 +22,6 @@ export default Vue.extend({
     }    
 })
 </script>
-
-<!--
-<script>
-import banner from './components/thirdPage/banner.vue'
-import mainContent from './components/thirdPage/mainContent.vue'
-import relation from './components/thirdPage/relation.vue'
-import moocFooter from "./moocFooter.vue"
-
-export default {
-    name: 'Video',
-    components: {
-        banner,
-        mainContent,
-        'wbc-footer':moocFooter
-    }
-}
-</script>
--->
 
 <style> 
 .box {
