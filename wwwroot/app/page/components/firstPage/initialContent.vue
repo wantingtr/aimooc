@@ -50,22 +50,17 @@
         </div>
 </template>
 
-<script>
-                          
-import fetchVideos from '../../../api/fetchVideos.js'
-import $ from 'jquery'
 
-
-export default {
+<script lang="ts">
+import Vue from 'vue'
+import fetchVideos from '../../../api/fetchVideos'
+import * as $ from 'jquery'///
+export default Vue.extend({
     data(){
-
-        
+        //const list: string[] = []
        // alert('go1');
-
-        
-        
         return{
-
+            //list: list,
 			list: [],
 			error: null,
 			info: "Not run yet"
@@ -83,8 +78,52 @@ export default {
         //             this.list = data;
         //             this.info = "Done"
 		// 		});
-        // }
+        // }  
+        jumpVideo(id:string) {
+           //alert(id);
+            this.$router.push({path: '/video?courseID='+id});
+        },
+    },
+    updated() {
+       // alert('go');
+    },
+    mounted(){
+        fetchVideos
+            .getVideoList()
+            .then((data) => {
+                this.list = data;
+                this.info = "Done"
+            });    
+    }
+})
+</script>
+
+<!--
+<script>                         
+import fetchVideos from '../../../api/fetchVideos.js'
+import $ from 'jquery'
+export default {
+    data(){
+       // alert('go1');
+        return{
+			list: [],
+			error: null,
+			info: "Not run yet"
+        }
+    },
+    created(){
         
+    },
+    methods: {
+		// fetchVideos : function() {
+		// 	this.info = "Fetching"
+		// 	getVideoList
+		// 		.getVideoList()
+		// 		.then((data) => {
+        //             this.list = data;
+        //             this.info = "Done"
+		// 		});
+        // }  
         jumpVideo(id) {
            //alert(id);
             this.$router.push({path: '/video?courseID='+id});
@@ -94,18 +133,16 @@ export default {
        // alert('go');
     },
     mounted(){
-			fetchVideos
-				.getVideoList()
-				.then((data) => {
-                    this.list = data;
-                    this.info = "Done"
-				});
-
-        
+        fetchVideos
+            .getVideoList()
+            .then((data) => {
+                this.list = data;
+                this.info = "Done"
+            });    
     }
 }
 </script>
-
+-->
 
 <style scoped>
 

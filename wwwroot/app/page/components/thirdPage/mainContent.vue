@@ -69,8 +69,71 @@
     
 </template>
 
+<script lang="ts">
+import fetchVideos from '../../../api/fetchVideos'
+import * as $ from 'jquery'
+import Vue from 'vue'
+import Component from 'vue-class-component'
+
+export default Vue.extend({
+    name: 'mainContent',
+    data(){    
+        //const list: string[] = [] 
+       // alert('go1');   
+        return{
+            info: {},
+            list : [],
+            error: null,
+            status : false
+        }
+    },
+    created(){
+
+        // alert('1');
+        
+    },
+    methods: {
+		// fetchVideos : function() {
+		// 	this.info = "Fetching"
+		// 	getVideoList
+		// 		.getVideoList()
+		// 		.then((data) => {
+        //             this.list = data;
+        //             this.info = "Done"
+		// 		});
+        // }
+        jumpHome() {
+            this.$router.push({path: "/"});
+        },
+        jumpVideo(id:string) {
+          // alert(id);
+           this.$router.push({path: '/video?courseID='+id});
+           this.status = true;
+        },
+    },
+    watch: { 
+        '$route' (to, from) { 
+        this.$router.go(0); 
+    }},
+    updated() {
+    },
+    mounted(){
+
+        fetchVideos
+            .getVideo(this.$route.query.courseID)
+            .then((data) => {
+                //this.relationList = data.relationVideoList;
+                this.info = data.video;
+                this.list = data.relationVideoList;
+                //alert(this.info.courseTime);
+            });       
+    }
+})
+</script>
+
+<!--
 <script>
-import fetchVideos from '../../../api/fetchVideos.js'
+import fetchVideos from '../../../api/fetchVideos'
 import $ from 'jquery'
 export default {
     name: 'mainContent',
@@ -130,6 +193,7 @@ export default {
     }
 }
 </script>
+-->
 
 <style scoped>
 

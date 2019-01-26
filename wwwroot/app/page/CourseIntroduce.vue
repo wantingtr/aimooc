@@ -5,16 +5,17 @@
     </div>
 </template>
 
-<script>
+
+<script lang="ts">
+import Vue from 'vue'
 import secondHeader from './components/secondPage/secondHeader.vue'
 import secondContent from './components/secondPage/secondContent.vue'
-
-export default {
+export default Vue.extend({
     components:{
         "sec-header":secondHeader,
         "sec-content":secondContent,
-    }
-}
+    }   
+})
 </script>
 
 <style scoped>
