@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './route'
 
-import './assets/js/font.js'
+import './assets/js/font.ts'
 import './assets/css/style.css'
 
 

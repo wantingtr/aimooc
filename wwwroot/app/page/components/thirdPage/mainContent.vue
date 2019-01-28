@@ -13,10 +13,10 @@
             </div>
         </div>
         <div class="videoPlaying">
+            <div class="c-title">
+                {{info.courseName}}
+            </div>
             <div class="introduction">
-                <div class="c-title">
-                    {{info.courseName}}
-                </div>
                 <div class="line"></div>
                 <div class="fit">
                     <div class="fit-item">
@@ -131,70 +131,6 @@ export default Vue.extend({
 })
 </script>
 
-<!--
-<script>
-import fetchVideos from '../../../api/fetchVideos'
-import $ from 'jquery'
-export default {
-    name: 'mainContent',
-    data(){
-
-        
-       // alert('go1');
-       
-        
-        
-        return{
-            info: {},
-            list : [],
-            error: null,
-            status : false
-        }
-    },
-    created(){
-
-        // alert('1');
-        
-    },
-    methods: {
-		// fetchVideos : function() {
-		// 	this.info = "Fetching"
-		// 	getVideoList
-		// 		.getVideoList()
-		// 		.then((data) => {
-        //             this.list = data;
-        //             this.info = "Done"
-		// 		});
-        // }
-        jumpHome() {
-            this.$router.push({path: "/"});
-        },
-        jumpVideo(id) {
-          // alert(id);
-           this.$router.push({path: '/video?courseID='+id});
-           status = true;
-        },
-    },
-    watch: { 
-    '$route' (to, from) { 
-     this.$router.go(0); 
-    }},
-    updated() {
-    },
-    mounted(){
-			fetchVideos
-				.getVideo(this.$route.query.courseID)
-				.then((data) => {
-                    //this.relationList = data.relationVideoList;
-                    this.info = data.video;
-                    this.list = data.relationVideoList;
-                    //alert(this.info.courseTime);
-				});       
-    }
-}
-</script>
--->
-
 <style scoped>
 
 .relation {
@@ -214,12 +150,17 @@ export default {
     width: 9.13rem;
     margin-top: .09rem;
 }
+.course-item:hover{ 
+    border: .01rem solid #4989B6;
+}
 .course-item {
     background:rgba(73,137,182,0.1);
     border-radius:7px;
     margin: 0 0 .51rem 0;
     height: 1.71rem;
+    border-width: .01rem;
     position: relative;
+    border: .01rem solid white;
 }
 .courseName {
     font-size:.22rem;
@@ -330,6 +271,7 @@ export default {
     width: 7.57rem;
     height: 4.36rem;
     border-radius: .15rem;
+    margin-top: .25rem;
 }
 .c-title{
     font-size: .24rem;

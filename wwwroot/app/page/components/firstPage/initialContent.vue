@@ -8,7 +8,7 @@
                 <p class="type-textOne">{{info.typeName}}</p>
                 <div class="type-sort showPC">
                     <img src="../../../static/img/sort.png" alt="">
-                    <p >排序</p>
+                    <p style="color: #4989B6;">排序</p>
                     <select name="selectSort" id="selectPC">   
                         <option value="1">标题（A-Z）</option>   
                         <option value="2">最近更新</option>          
@@ -38,7 +38,6 @@
                             </div>
                             <div class="videoDownContentTwo">
                                 <img class="imgone beginner"  src="../../../static/img/beginner.png" alt="">
-                                <p></p>
                                 <img v-show="item.downImgIconSecond" class="imgtwo intermediate" :src="item.downImgIconSecond" alt="">
                                 <p>{{item.courseLevel}}</p>
                             </div>
@@ -97,52 +96,6 @@ export default Vue.extend({
     }
 })
 </script>
-
-<!--
-<script>                         
-import fetchVideos from '../../../api/fetchVideos.js'
-import $ from 'jquery'
-export default {
-    data(){
-       // alert('go1');
-        return{
-			list: [],
-			error: null,
-			info: "Not run yet"
-        }
-    },
-    created(){
-        
-    },
-    methods: {
-		// fetchVideos : function() {
-		// 	this.info = "Fetching"
-		// 	getVideoList
-		// 		.getVideoList()
-		// 		.then((data) => {
-        //             this.list = data;
-        //             this.info = "Done"
-		// 		});
-        // }  
-        jumpVideo(id) {
-           //alert(id);
-            this.$router.push({path: '/video?courseID='+id});
-        },
-    },
-    updated() {
-       // alert('go');
-    },
-    mounted(){
-        fetchVideos
-            .getVideoList()
-            .then((data) => {
-                this.list = data;
-                this.info = "Done"
-            });    
-    }
-}
-</script>
--->
 
 <style scoped>
 
@@ -219,9 +172,9 @@ export default {
     vertical-align:middle;
 }
 #selectPC{
+    border: none;
     background:rgba(249,248,248,1);
     border-radius:0.04rem 0.04rem 0rem 0rem;
-    border: 0.01rem solid rgba(73,137,182,1);
     vertical-align:middle;
     display: inline-block;
     width: 2.55rem;
@@ -244,8 +197,8 @@ export default {
     top: 0;
     width:3.78rem;
     height:3.06rem;
-    background:rgba(0,0,0,1);
-    opacity:0.5169;
+    background:rgba(0,0,0,0.24);
+    border-radius: 0.08rem;
 }
 
 .black p{
@@ -304,9 +257,9 @@ export default {
 
 .videoImgContent{
     position: absolute;
-    top: 1.41rem;
+    width: 3.3rem;
+    bottom: 1.35rem;
     left: 0.2rem;
-    height: 0.3rem;
     font-size: 0.22rem;
     font-family:PingFangSC-Medium;
     font-weight:500;
