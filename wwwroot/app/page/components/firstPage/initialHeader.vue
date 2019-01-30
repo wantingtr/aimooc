@@ -5,6 +5,16 @@
         <input type="text" class="Search-input" v-bind:placeholder="Search">
         <img src="../../../static/img/search.png" class="Search-img" >
       </div>
+      <div class="login">注册/登录</div>
+        <div class="login" @click="showLogin">注册/登录</div>
+        <login v-show="loginShow" :isShow ="loginShow" @closeMyself="showLogin">
+            <!--
+            <div slot="header" class="slot-header">插入到name为header的slot标签里面</div>
+            <div class="dialog_publish_main" slot="main">
+                这里是内容插入到子组件的slot的name为main里面，可以在父组件中添加class定义样式，事件类型等各种操作
+            </div>
+            -->
+        </login>
       <div class="textTitle">广东职业教育人工智能MOOC平台</div>
       <div class="centreImg">
         <img src="../../../static/img/ai.png">
@@ -16,17 +26,27 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import login from '../login.vue'
 export default Vue.extend({
   data(){
     return{
-      Search: "搜索"
+      Search: "搜索",
+      loginShow: false
     }
   },
-  mounted(){
+  components:{ 
+        'login': login
+  },
+  mounted() {
     if(document.documentElement.clientWidth > 750)
       this.Search = "搜索";
     else
       this.Search = "";
+  },
+  methods: {
+    showLogin() {
+      this.loginShow = !this.loginShow
+    }
   }
 })
 </script>
@@ -70,6 +90,14 @@ export default Vue.extend({
   width: 0.18rem;
 }
 
+.login{
+    color: #ffffff;
+    position: absolute;
+    font-size: .16rem;
+    right: 1.2rem;
+    font-family: PingFangSC-Regular;
+    line-height: .9rem;
+}
 .textTitle{
   position: absolute;
   top: 1.06rem;

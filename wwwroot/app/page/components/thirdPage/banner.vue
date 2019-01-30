@@ -1,7 +1,7 @@
 <template>
     <div class="banner">
         <div class="banner-c">
-            <div class="title">
+            <div class="title" v-on:click="jumpHome">
                 广东职业教育人工智能MOOC平台
             </div>
             <div class="search">
@@ -9,15 +9,44 @@
                 <img src="../../../static/img/search.png" alt="" class="search-logo">
                 <img src="../../../static/img/searchP.png" alt="" class="search-logoP">
             </div>
+            <div class="login" @click="showLogin">注册/登录</div>
+            <login v-show="loginShow" :isShow ="loginShow" @closeMyself="showLogin">
+                <!--
+                <div slot="header" class="slot-header">插入到name为header的slot标签里面</div>
+                <div class="dialog_publish_main" slot="main">
+                    这里是内容插入到子组件的slot的name为main里面，可以在父组件中添加class定义样式，事件类型等各种操作
+                </div>
+                -->
+            </login>
         </div>
     </div>
 </template>
 
-<script>
-export default {
-    name: 'banner'
-}
+<script lang="ts">
+import Vue from 'vue'
+import * as $ from 'jquery'
+import login from '../login.vue'
+export default Vue.extend({
+    name: 'banner',
+    components:{ 
+        'login': login
+    },
+    data() {
+        return {
+            loginShow: false
+        }
+    },
+    methods: {
+        showLogin() {
+            this.loginShow = !this.loginShow
+        },
+        jumpHome() {
+            this.$router.push({path: "/"});
+        }
+    }
+})
 </script>
+
 
 <style scoped>
 .banner {
@@ -67,6 +96,22 @@ export default {
     display: none;
 }
 
+.login{
+    color: #ffffff;
+    position: absolute;
+    font-size: .16rem;
+    right: 1.2rem;
+    font-family: PingFangSC-Regular;
+    line-height: .9rem;
+}
+.slot-header{
+    font-size: .17rem;
+    color: #ffffff;
+}
+.dialog_publish_main{
+    font-size: .17rem;
+    color: #ffffff;    
+}
 @media screen and (max-width: 750px) {
     .banner-c{
         height: .44rem;

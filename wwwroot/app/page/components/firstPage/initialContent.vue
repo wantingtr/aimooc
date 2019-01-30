@@ -26,7 +26,7 @@
                 </div>
                 <div class="video-list">
                     <div v-bind:class="[index%3==0 ? 'firstvideo' : 'videoFloat']"  
-                    v-for="(item, index) of info.courseList" :key="index" v-on:click="jumpVideo(item.courseID)">
+                v-for="(item, index) of info.courseList" :key="index" v-on:click="jumpVideo(item.courseID)">
                         <img class="videoIntroduce" :src="item.courseImg" alt="">
                         <div class="black">
                             <div class="videoImgContent">{{item.courseName}}</div>
