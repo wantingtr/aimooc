@@ -3,7 +3,7 @@
     <div class="headImgBox">
       <div class="Search">
         <input type="text" class="Search-input" v-bind:placeholder="Search">
-        <img src="../../../static/img/search.png" class="Search-img" >
+        <img src="../../../static/img/search.png" class="Search-img" @click="searchClick">
       </div>
       <div class="login">注册/登录</div>
         <div class="login" @click="showLogin">注册/登录</div>
@@ -46,6 +46,9 @@ export default Vue.extend({
   methods: {
     showLogin() {
       this.loginShow = !this.loginShow
+    },
+    searchClick() {
+      this.$router.push({path: "/search"})
     }
   }
 })

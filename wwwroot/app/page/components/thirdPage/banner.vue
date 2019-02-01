@@ -7,16 +7,10 @@
             <div class="search">
                 <input type="text" placeholder="搜索" class="search-text">
                 <img src="../../../static/img/search.png" alt="" class="search-logo">
-                <img src="../../../static/img/searchP.png" alt="" class="search-logoP">
+                <img src="../../../static/img/searchP.png" alt="" class="search-logoP" @click="searchClick">
             </div>
             <div class="login" @click="showLogin">注册/登录</div>
             <login v-show="loginShow" :isShow ="loginShow" @closeMyself="showLogin">
-                <!--
-                <div slot="header" class="slot-header">插入到name为header的slot标签里面</div>
-                <div class="dialog_publish_main" slot="main">
-                    这里是内容插入到子组件的slot的name为main里面，可以在父组件中添加class定义样式，事件类型等各种操作
-                </div>
-                -->
             </login>
         </div>
     </div>
@@ -42,6 +36,9 @@ export default Vue.extend({
         },
         jumpHome() {
             this.$router.push({path: "/"});
+        },
+        searchClick() {
+            this.$router.push({path: "/search"})
         }
     }
 })

@@ -253,6 +253,7 @@ export default Vue.extend({
 .video-list  .videoIntroduce{
     width: 100%;
     height:1.94rem;
+    border-radius: 0.08rem;
 }
 
 .videoImgContent{
