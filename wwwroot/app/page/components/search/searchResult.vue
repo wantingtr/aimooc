@@ -211,6 +211,7 @@ export default Vue.extend({
     height: .01rem;
     margin: .2rem 0 .72rem 0;
     width: 12rem;
+    display: inline-block;
 }
 </style>
 

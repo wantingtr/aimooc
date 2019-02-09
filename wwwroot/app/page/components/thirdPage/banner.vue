@@ -6,8 +6,8 @@
             </div>
             <div class="search">
                 <input type="text" placeholder="搜索" class="search-text">
-                <img src="../../../static/img/search.png" alt="" class="search-logo">
-                <img src="../../../static/img/searchP.png" alt="" class="search-logoP" @click="searchClick">
+                <img src="../../../static/img/search.png" alt="" class="search-logo" @click="searchClick">
+                <img src="../../../static/img/searchP.png" alt="" class="search-logoP" >
             </div>
             <div class="login" @click="showLogin">注册/登录</div>
             <login v-show="loginShow" :isShow ="loginShow" @closeMyself="showLogin">
@@ -55,6 +55,7 @@ export default Vue.extend({
     position: relative;
 }
 .title {
+    cursor: pointer;
     font-family:PingFangSC-Medium;
     font-weight:500;
     color:rgba(255,255,255,1);
@@ -92,7 +93,6 @@ export default Vue.extend({
 .search-logoP{
     display: none;
 }
-
 .login{
     color: #ffffff;
     position: absolute;
@@ -100,6 +100,7 @@ export default Vue.extend({
     right: 1.2rem;
     font-family: PingFangSC-Regular;
     line-height: .9rem;
+    cursor: pointer;
 }
 .slot-header{
     font-size: .17rem;
